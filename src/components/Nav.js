@@ -2,9 +2,12 @@ import React from 'react';
 
 function Nav() {
   return (
-    <nav classsName='navigation'>
+    <nav className='navigation'>
       <a>
-        <img src='https://miro.medium.com/max/863/1*BFV8Gwt5BILa-xv04IK2ng.png' />
+        <img
+          height='40px'
+          src='https://miro.medium.com/max/863/1*BFV8Gwt5BILa-xv04IK2ng.png'
+        />
       </a>
       <ul>
         <li>Home</li>
