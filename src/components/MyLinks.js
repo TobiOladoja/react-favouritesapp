@@ -8,10 +8,9 @@ function MyLinks() {
 
   return (
     <div className='rightContent'>
-      <div>
-        <div style={linkImageStyle}></div>
-        <div>
-          {' '}
+      <div className='linkCard'>
+        <div className='linkCardImage' style={linkImageStyle}></div>
+        <div className='linkCardLink'>
           <h2>
             <a href='#'>My Links</a>
           </h2>
